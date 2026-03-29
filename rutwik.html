@@ -45,7 +45,7 @@
 
 body{
   height:100vh;
-  background:url("https://postimg.cc/JshCJFKD");
+  background:url("https://i.postimg.cc/kgQMr3bc/photo1.jpg");
   background-size:cover;
   overflow:hidden;
   display:flex;
@@ -54,7 +54,6 @@ body{
   padding-left:40px;
 }
 
-}
 
 body::before{
   content:"";
@@ -126,8 +125,8 @@ button:hover{ transform:scale(1.1); }
 .popup{
   position:fixed;
   inset:0;
-  background:url("https://postimg.cc/21n917NF");
-  display:none;
+  background:url("https://i.postimg.cc/T34zHtkS/photo4.jpg");
+  display:auto;
   justify-content:center;
   align-items:center;
   z-index:100;
@@ -196,7 +195,7 @@ button:hover{ transform:scale(1.1); }
   display:none;
   position:fixed;
   inset:0;
-  background:url("https://postimg.cc/wRTYVbgY");
+  background:url("https://i.postimg.cc/kgQMr3bc/photo1.jpg");
   color:white;
   z-index:300;
   justify-content:center;
@@ -265,7 +264,7 @@ button:hover{ transform:scale(1.1); }
 .memory-section{
   min-height:100vh;
   padding:80px 20px;
-  background:url("https://postimg.cc/8JZ01kQL");
+  background:url("https://i.postimg.cc/ZKkhJs4T/photo6.jpg");
   text-align:center;
   color:white;
 }
@@ -345,7 +344,7 @@ button:hover{ transform:scale(1.1); }
 </audio>
 
 <div class="card" id="mainCard">
-  <img src="https://postimg.cc/JshCJFKD" class="photo">
+  <img src="https://i.postimg.cc/FR4GzSWT/photo.jpg" class="photo">
   <h1 id="name"></h1>
   <p id="typewriter"></p>
   <div id="days"></div>
@@ -361,7 +360,7 @@ button:hover{ transform:scale(1.1); }
 </div>
 
 <div class="letter-container" id="letterCard">
-  <img src="https://postimg.cc/8JZ01kQL" class="vintage-photo">
+  <img src="https://i.postimg.cc/sxzd41TH/photo9.jpg" class="vintage-photo">
   <div class="letter-content">
     <p>My lil babygirl💖</p>
     <p id="letterText"></p>
@@ -447,7 +446,7 @@ function type(){
     setTimeout(type,50);
   }
 }
-window.onload = type;
+window.addEventListener('load', type);
 
 // DAYS TOGETHER
 let meetDate = new Date("2023-04-28");
